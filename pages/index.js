@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import CoinGecko from 'coingecko-api';
+
 const coinGeckoClient = new CoinGecko();
 
 export default function Home(props) {
@@ -26,7 +27,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Satoshi Observer</h1>
-      <p>Build your Own Smart Contracts on Bitcoin with <a href="bitcoincomputer.io">BitcoinComputer.io</a></p>
+      <p>Build your Own Smart Contracts on Bitcoin with <a href="https://bitcoincomputer.io">BitcoinComputer.io</a></p>
       
 <table className='table'>
   <thead>
