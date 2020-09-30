@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import CoinGecko from 'coingecko-api';
-
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const coinGeckoClient = new CoinGecko();
 
 export default function Home(props) {
